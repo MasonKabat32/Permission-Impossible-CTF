@@ -11,3 +11,9 @@ Welcome to the Permission Impossible CTF challenge! The goal of this challenge i
 ssh Player@158.101.112.73
 ```
 
+You then will be prompted for a Player account password before you are connected to the machine. The password for the account is.
+
+```bash
+Exploit123@
+```
+
