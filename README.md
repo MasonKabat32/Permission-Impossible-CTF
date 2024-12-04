@@ -27,4 +27,4 @@ Once the password has been entered and are connected, you can begin the challeng
 
 3. The range of unsigned integers is from 0 to 4294967295
 
-4. Some helpfule shell commands you may want to use include ls, cd, sudo, find, cat, su, more, less, grep
+4. Some helpful shell commands you may want to use include ls, cd, sudo, find, cat, su, more, less, grep
