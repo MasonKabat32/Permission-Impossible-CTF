@@ -17,3 +17,14 @@ You then will be prompted for a Player account password before you are connected
 Exploit123@
 ```
 
+Once the password has been entered and are connected, you can begin the challenge. The following Hints section will contain valuable information in order to successfully perform the exploit and capture the flag. Good luck and happy hunting!
+
+## Hints
+
+1. The sudo permissions for the account will be hidden in a folder somewhere in the home directory of the player account in a file named “config.txt”
+
+2. To switch to the root directory an, account with root access will have to be used
+
+3. The range of unsigned integers is from 0 to 4294967295
+
+4. Some helpfule shell commands you may want to use include ls, cd, sudo, find, cat, su, more, less, grep
