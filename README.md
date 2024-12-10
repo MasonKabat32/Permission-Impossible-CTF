@@ -2,29 +2,33 @@
 
 **Difficulty**: Moderate
 
-**Categories**: Shell Commands, Priveledge Escalation
+**Categories**: Buffer Overflow, Shell Commands, Priveledge Escalation
 
 ## Description
-Welcome to the Permission Impossible CTF challenge! The goal of this challenge is to perform a priveledege escalation exploit to gain access to the root account on the Linux virtual machine to find the flag file in the home directory titled "flag.txt". To begin this challenge, you first have to connect to the virtual machine using ssh with the following command.
+Welcome to the Permission Impossible CTF challenge! Your mission is to perform a privilege escalation exploit to gain root access on a Linux virtual machine and retrieve the flag file located in the home directory, titled flag.txt.
 
-```bash
-ssh Player@158.101.112.73
-```
+However to connect to the virtual machine, you’ll need its IP address and password but they’ve been stolen by a ravenous monster! The monster isn’t giving them up easily. To earn its cooperation, you’ll have to prepare a delicious meal for it. Only then might it reveal the connection details.
 
-You then will be prompted for a Player account password before you are connected to the machine. The password for the account is.
+To get started:
 
-```bash
-Exploit123@
-```
+1. Download the provided executable, which will help you prepare the perfect meal for the monster.
 
-Once the password has been entered and are connected, you can begin the challenge. The following Hints section will contain valuable information in order to successfully perform the exploit and capture the flag. Good luck and happy hunting!
+2. Convince the monster to reveal the IP and password. Be warned, I’ve tried countless times, following its instructions to the letter, but it’s never satisfied!
+
+3. Once you successfully obtain the connection details, you can connect to the virtual machine and begin the main task, escalating your privileges to root and finding the flag.
+
+Good luck, and happy hunting!
 
 ## Hints
 
-1. The sudo permissions for the account will be hidden in a folder somewhere in the home directory of the player account in a file named “config.txt”
+1. When running the executable, the monster may provide some valuable information
 
-2. To switch to the root directory an, account with root access will have to be used
+2. The monster told me its favorite meal is letter soup
 
-3. The range of unsigned integers is from 0 to 4294967295
+3. The sudo permissions for the account will be hidden in a folder somewhere in the home directory of the player account in a file named “config.txt”
 
-4. Some helpful shell commands you may want to use include ls, cd, sudo, find, cat, su, more, less, grep
+4. To switch to the root directory an, account with root access will have to be used
+
+5. The range of unsigned integers is from 0 to 4294967295
+
+6. Some helpful shell commands you may want to use include ls, cd, sudo, find, cat, su, more, less, grep
