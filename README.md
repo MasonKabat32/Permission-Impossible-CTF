@@ -2,7 +2,7 @@
 
 **Difficulty**: Moderate
 
-**Categories**: Buffer Overflow, Shell Commands, Priveledge Escalation
+**Categories**: Buffer Overflow, Shell Commands, Privilege Escalation
 
 ## Description
 Welcome to the Permission Impossible CTF challenge! Your mission is to perform a privilege escalation exploit to gain root access on a Linux virtual machine and retrieve the flag file located in the home directory, titled flag.txt.
